@@ -1,0 +1,48 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 15,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "shoulder to overhead",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      },
+      {
+        "movement": "burpees over bar",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "sit-ups",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

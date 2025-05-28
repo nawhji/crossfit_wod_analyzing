@@ -1,0 +1,44 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 9,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wallball",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": 25,
+        "increase": false
+      },
+      {
+        "movement": "shoulder to overhead",
+        "ladder": true,
+        "count": 4,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

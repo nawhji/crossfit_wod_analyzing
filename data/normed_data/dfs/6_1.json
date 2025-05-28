@@ -1,0 +1,58 @@
+{
+  "source": "dfs",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 3,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 18,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "toes to bar",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push-up",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "kettlebell swing",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "goblet squat",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

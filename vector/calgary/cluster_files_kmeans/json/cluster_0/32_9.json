@@ -1,0 +1,56 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 7,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "weighted pull-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "chest-to-bar pull-up",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "kipping pull-up",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall-ball shot",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      }
+    ]
+  }
+}

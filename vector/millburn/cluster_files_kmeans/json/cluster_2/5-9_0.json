@@ -1,0 +1,55 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": 3,
+    "emom_cycle_length": 2,
+    "onoff": null,
+    "time_cap": 15,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "med-ball push press",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "db devils press",
+        "ladder": false,
+        "count": 4,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

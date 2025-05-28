@@ -1,0 +1,58 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 3,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "med-ball run",
+        "ladder": false,
+        "count": 300,
+        "quantity": "m",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "db thruster",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "med-ball box step up",
+        "ladder": false,
+        "count": 18,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "db thruster",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

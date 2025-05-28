@@ -1,0 +1,48 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "box jump",
+        "ladder": true,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 5,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "overhead squat",
+        "ladder": true,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 95,
+        "increase": true,
+        "increase_every": 5,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

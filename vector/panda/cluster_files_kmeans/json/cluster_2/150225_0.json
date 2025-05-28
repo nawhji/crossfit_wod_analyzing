@@ -1,0 +1,62 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "toes to bar",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "dumbbell clean and jerk",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 14,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

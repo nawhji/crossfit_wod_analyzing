@@ -1,0 +1,48 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "ring dips",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "sumo deadlift high pulls",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": 95,
+        "increase": false
+      },
+      {
+        "movement": "double-unders",
+        "ladder": false,
+        "count": 16,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

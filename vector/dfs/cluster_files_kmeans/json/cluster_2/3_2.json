@@ -1,0 +1,62 @@
+{
+  "source": "dfs",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 8,
+    "token": 1,
+    "emom_cycle_length": 3,
+    "onoff": true,
+    "on_duration": "1:00",
+    "off_duration": "0:30",
+    "time_cap": 24,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "ski",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

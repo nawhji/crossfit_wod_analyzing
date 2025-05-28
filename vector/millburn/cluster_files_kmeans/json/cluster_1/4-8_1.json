@@ -1,0 +1,58 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 2,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 1000,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall walk",
+        "ladder": true,
+        "count": "4-3-2",
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "rage ball",
+        "ladder": true,
+        "count": "24-18-12",
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "ab-mat sit up",
+        "ladder": true,
+        "count": "24-18-12",
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

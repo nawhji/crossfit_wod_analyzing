@@ -1,0 +1,32 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 20,
+    "token": 1,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "echo bike",
+        "ladder": false,
+        "count": 12,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

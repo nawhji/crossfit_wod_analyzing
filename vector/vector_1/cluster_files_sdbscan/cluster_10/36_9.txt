@@ -1,0 +1,6 @@
+0:00-10:00
+1-rep-max clean
+10:00-20:00
+1-rep-max bench press
+20:00-30:00
+1-rep-max overhead squat

@@ -1,0 +1,86 @@
+{
+  "source": "tam",
+  "type_reps": 2,
+  "teamwod": true,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 5,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": 7,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpees box jump overs",
+        "ladder": true,
+        "count": 2,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 2,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 5,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "burpees box jump overs",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "bike",
+        "ladder": true,
+        "count": 2,
+        "quantity": "cal",
+        "weight": null,
+        "increase": true,
+        "increase_every": 2,
+        "increase_quantity": "cal",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

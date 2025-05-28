@@ -1,0 +1,50 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "dumbbell farmer carry",
+        "ladder": false,
+        "count": 150,
+        "quantity": "m",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 25,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "lunge walk",
+        "ladder": false,
+        "count": 150,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

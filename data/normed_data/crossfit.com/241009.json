@@ -1,0 +1,98 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "ground-to-overheads with a ruck",
+        "ladder": false,
+        "count": 40,
+        "quantity": "rep",
+        "weight": 45,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "ruck",
+        "ladder": false,
+        "count": 1600,
+        "quantity": "m",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "ground-to-overheads with a ruck",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 45,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "ruck",
+        "ladder": false,
+        "count": 1600,
+        "quantity": "m",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "ground-to-overheads with a ruck",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": 45,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "ruck",
+        "ladder": false,
+        "count": 1600,
+        "quantity": "m",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

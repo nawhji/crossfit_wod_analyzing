@@ -1,0 +1,94 @@
+{
+  "source": "panda",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 7,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 100,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "burpees over bar",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 7,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "wall walks",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "dumbbell thrusters",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

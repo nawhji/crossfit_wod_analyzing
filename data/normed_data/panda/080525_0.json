@@ -1,0 +1,78 @@
+{
+  "source": "panda",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "time_cap": 4,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 12,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dual dumbbell push press",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall walk",
+        "ladder": true,
+        "count": 1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

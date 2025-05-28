@@ -1,0 +1,82 @@
+{
+  "source": "dfs",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 6,
+    "token": 2,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 16,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "front squat",
+        "ladder": true,
+        "count": "5-4-3-1-1-1",
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": 10,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 12,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "snatch",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "bar facing burpee",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

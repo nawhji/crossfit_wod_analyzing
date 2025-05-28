@@ -1,0 +1,101 @@
+{
+  "source": "millburn",
+  "type_reps": 3,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 5,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "burpee-pull up",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 5,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 11,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 5,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 11,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpee-pull up",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 3,
+    "token": 1,
+    "emom_cycle_length": 4,
+    "onoff": true,
+    "on_duration": "1:00",
+    "off_duration": "0:15",
+    "time_cap": 12,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "wall ball",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "dumbbell lunge",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "lateral burpee over dumbbell",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

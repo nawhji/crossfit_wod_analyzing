@@ -1,0 +1,146 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 5,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wall walk",
+        "ladder": true,
+        "count": "1",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "sandbag over shoulder",
+        "ladder": true,
+        "count": "2",
+        "quantity": "rep",
+        "weight": 75,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "burpees",
+        "ladder": true,
+        "count": "3",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "toes-to-bar",
+        "ladder": true,
+        "count": "4",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "wallball shots",
+        "ladder": true,
+        "count": "5",
+        "quantity": "rep",
+        "weight": 10,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "ring dips",
+        "ladder": true,
+        "count": "6",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "box jumps",
+        "ladder": true,
+        "count": "7",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "pullups",
+        "ladder": true,
+        "count": "8",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "kettlebell swings",
+        "ladder": true,
+        "count": "9",
+        "quantity": "rep",
+        "weight": 70,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "ring muscle-ups",
+        "ladder": true,
+        "count": "10",
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

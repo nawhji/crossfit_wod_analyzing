@@ -1,0 +1,66 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 3,
+    "token": 1,
+    "emom_cycle_length": 5,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 15,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "sandbag squat",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 75,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "kettlebell swing",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 70,
+        "increase": false
+      },
+      {
+        "movement": "sandbag over shoulder",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 75,
+        "increase": false
+      },
+      {
+        "movement": "sit-up",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

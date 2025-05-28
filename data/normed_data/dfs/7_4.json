@@ -1,0 +1,50 @@
+{
+  "source": "dfs",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 5,
+    "token": 2,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": 9,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "bar facing burpees",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "squat clean thruster",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

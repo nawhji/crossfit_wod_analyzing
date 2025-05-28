@@ -1,0 +1,74 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "kettlebell swing",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "devil press",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "overhead lunges",
+        "ladder": false,
+        "count": 20,
+        "quantity": "m",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "shuttle run",
+        "ladder": false,
+        "count": 100,
+        "quantity": "m",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

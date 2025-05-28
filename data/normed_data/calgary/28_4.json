@@ -1,0 +1,62 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "single-DB box step-up",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "single-DB walking lunge",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "single-DB carry",
+        "ladder": false,
+        "count": 100,
+        "quantity": "m",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

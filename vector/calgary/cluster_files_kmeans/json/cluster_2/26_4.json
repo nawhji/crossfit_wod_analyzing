@@ -1,0 +1,62 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": true,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 11,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 75,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "chest to bar pull-up",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

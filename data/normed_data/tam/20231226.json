@@ -1,0 +1,58 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 4,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "pull up",
+        "ladder": false,
+        "count": 18,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "overhead walking lunge",
+        "ladder": false,
+        "count": 50,
+        "quantity": "m",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "single arm alternating devil's press",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "overhead walking lunge",
+        "ladder": false,
+        "count": 50,
+        "quantity": "m",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

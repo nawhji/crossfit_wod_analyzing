@@ -1,0 +1,57 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 9,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wall ball",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "devil press",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell step-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

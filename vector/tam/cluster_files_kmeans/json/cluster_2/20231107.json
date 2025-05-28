@@ -1,0 +1,50 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 8,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 10,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpee box jump over",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 10,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

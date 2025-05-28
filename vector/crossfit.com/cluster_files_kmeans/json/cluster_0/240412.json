@@ -1,0 +1,86 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 3,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "1:00",
+    "off_duration": "1:00",
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "wall-ball",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "sumo deadlift high pull",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 75,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "push press",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 75,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+Cluster 0:
+  - Push press
+  - Ground to overhead
+  - Box step up
+  - Box Jump
+  - Box Jump over
+  - GHD back extension
+  - Strict Ring Muscle up
+  - Pull over
+  - Strict Toes to bar
+  - Pull up
+  - Strict Pull up
+  - Jumping pull up
+  - Chest to bar pull up
+  - Strict Chest to bar pull up
+  - Weighted Pull up
+  - Peg board ascents
+  - Strict handstand push up
+  - Wall facing strict handstand push up
+  - Sled drag/push
+  - Box (sled) push
+  - V-up
+  - Russian twist
+  - Back extension
+
+Cluster 1:
+  - Bike
+  - Echo bike
+  - Walking Lunge
+  - Thruster
+  - dumbell Overhead walking lunge
+  - dumbell Thruster
+  - kettlebell Swing
+  - kettlebell Russian Swing
+  - dumbell/Kettlebell Lunge
+  - Goblet Carry
+  - Flutter kick
+
+Cluster 2:
+  - Shuttle(run)
+  - Weighted run(Ruck)
+  - Bench press
+  - Deadlift
+  - Bodyweight Deadlift
+  - Sumo deadlift
+  - Sumo deadlift high pull
+  - Back rack/front rack lunge
+  - Hang Squat Snatch
+  - Power Snatch
+  - Hang Power Snatch
+  - Hang Squat Snatch
+  - Snatch
+  - Shoulder to overhead
+  - Anchor press
+  - Rope climb
+  - legless rope climb
+  - Bar Muscle up
+  - Ring Muscle up
+  - Ring support hold
+  - Toes to bar
+  - Dead Hang
+  - Plank Hold
+  - L-sit hold
+
+Cluster 3:
+  - Row
+  - Sprint
+  - Cluster
+  - dumbell Renegade rows
+
+Cluster 4:
+  - Burpee Box Jump
+  - Burpee Box Jump over
+  - Burpee
+  - burpee over the dumbell
+  - burpee over the rower
+  - burpee over the bar
+  - bar facing burpee
+  - burpee to plate
+  - burpee to target
+  - Burpee Pull up
+
+Cluster 5:
+  - Back Squat
+  - Front Squat
+  - Squat Clean
+  - Overhead squat
+  - Squat Snatch
+  - Goblet Squat
+  - Air squat
+  - Medicine ball squat
+  - Sit-up
+  - GHD Sit-up
+  - Pistol squat
+  - jump squat
+  - Frankenstein Front Squat
+  - Bear Crawl
+  - Superman
+  - Seated leg raise
+
+Cluster 6:
+  - Power Clean
+  - Hang Power Clean
+  - dumbell Clean
+  - dumbell Squat clean
+  - dumbell Hang clean
+  - dumbell Hang squat clean
+  - dumbell Clean and Jerk
+  - dumbell Snatch
+  - dumbell Squat snatch
+  - dumbell Hang snatch
+  - dumbell Hang squat snatch
+  - dumbell Devil Press
+  - dumbell Burpee deadlift
+  - dumbell Push press
+  - dumbell Step up
+  - dumbell Hold
+  - dumbell Front rack hold
+
+Cluster 7:
+  - Ski
+  - Good Morning
+  - Dips
+  - Bar dip
+  - Ring dip
+  - Farmers Carry
+
+Cluster 8:
+  - Wall ball sit up
+  - Wall ball shot
+  - Medicine ball clean
+  - Wall walk
+  - Hollow rock
+
+Cluster 9:
+  - *erg
+  - Run
+  - Clean and Jerk
+  - Push Jerk
+  - Split Jerk
+  - Jerk
+

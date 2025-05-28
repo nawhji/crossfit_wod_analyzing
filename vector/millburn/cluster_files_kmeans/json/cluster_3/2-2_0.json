@@ -1,0 +1,160 @@
+{
+  "source": "millburn",
+  "type_reps": 3,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": true,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "5:00",
+    "off_duration": "2:00",
+    "time_cap": 5,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "lateral pogo burpee",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "hang power snatch",
+        "ladder": false,
+        "count": 7,
+        "quantity": "rep",
+        "weight": 95,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 7,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "5:00",
+    "off_duration": "2:00",
+    "time_cap": 5,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "lateral pogo burpee",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "hang power snatch",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 105,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "5:00",
+    "off_duration": "2:00",
+    "time_cap": 5,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "lateral pogo burpee",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "hang power snatch",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "source": "calgary",
+  "type_reps": 3,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "clean",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "bench press",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "overhead squat",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 27,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "rope climb",
+        "ladder": false,
+        "count": 2,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpee",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "air squat",
+        "ladder": false,
+        "count": 40,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

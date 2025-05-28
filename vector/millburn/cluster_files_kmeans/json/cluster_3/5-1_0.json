@@ -1,0 +1,124 @@
+{
+  "source": "millburn",
+  "type_reps": 3,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 1,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 400,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 16,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": false
+      },
+      {
+        "movement": "hand release burpee box jump",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": 2,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 200,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      },
+      {
+        "movement": "hand release burpee box jump",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "For Time",
+    "round": 4,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 100,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 4,
+        "quantity": "rep",
+        "weight": 155,
+        "increase": false
+      },
+      {
+        "movement": "hand release burpee box jump",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

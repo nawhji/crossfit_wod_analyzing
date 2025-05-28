@@ -1,0 +1,50 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 10,
+    "token": 2,
+    "emom_cycle_length": 3,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 60,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 200,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "toes to bar",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "power clean",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 155,
+        "increase": false
+      }
+    ]
+  }
+}

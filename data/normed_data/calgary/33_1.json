@@ -1,0 +1,47 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": 2,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "time_cap": 12,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell snatch",
+        "ladder": false,
+        "count": 16,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

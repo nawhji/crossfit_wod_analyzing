@@ -1,0 +1,56 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 4,
+    "token": 4,
+    "emom_cycle_length": 2,
+    "onoff": null,
+    "time_cap": 16,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 21,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "ab-mat sit up",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpee-rage ball",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "alt db hang clean and jerk",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

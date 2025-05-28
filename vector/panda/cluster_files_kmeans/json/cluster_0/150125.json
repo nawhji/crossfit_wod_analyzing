@@ -1,0 +1,50 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 4,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": true,
+    "on_duration": "2:00",
+    "off_duration": "1:00",
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dumbbell snatch",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": true,
+        "increase_every": 2,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "dumbbell overhead lunge",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

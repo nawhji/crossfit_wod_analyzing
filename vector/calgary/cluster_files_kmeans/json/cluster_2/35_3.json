@@ -1,0 +1,62 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 15,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "v-ups",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "russian kb swings",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 53,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "calorie bike",
+        "ladder": true,
+        "count": 3,
+        "quantity": "cal",
+        "weight": null,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "cal",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

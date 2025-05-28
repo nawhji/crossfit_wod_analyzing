@@ -1,0 +1,50 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 4,
+    "token": 6,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 24,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 75,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell box step over",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "ghd sit up",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

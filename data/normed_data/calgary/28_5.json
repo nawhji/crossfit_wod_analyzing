@@ -1,0 +1,83 @@
+{
+  "source": "calgary",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 8,
+    "token": 1,
+    "emom_cycle_length": 3,
+    "onoff": null,
+    "time_cap": 8,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "clean pull",
+        "ladder": false,
+        "count": 1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "thruster",
+        "ladder": false,
+        "count": 1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": 3,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "hang power clean",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": false
+      },
+      {
+        "movement": "thruster",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpees over the bar",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

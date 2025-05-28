@@ -1,0 +1,160 @@
+{
+  "source": "dfs",
+  "type_reps": 4,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 4,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "box jump over",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell snatch",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "pull-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 4,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dumbbell snatch",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "pull-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell box step-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 4,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "pull-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell box step-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "box jump over",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_4": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 4,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dumbbell box step-over",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "box jump over",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell snatch",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

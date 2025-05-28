@@ -1,0 +1,74 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 6,
+    "token": 3,
+    "emom_cycle_length": 3,
+    "onoff": false,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 18,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 200,
+        "quantity": "m",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "russian kettlebell swing",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 55,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "burpee to target",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "med-ball box step-up",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

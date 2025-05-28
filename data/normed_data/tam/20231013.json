@@ -1,0 +1,49 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "2:00",
+    "off_duration": "1:00",
+    "time_cap": 18,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "air bike",
+        "ladder": false,
+        "count": 20,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "farmers carry",
+        "ladder": false,
+        "count": -1,
+        "quantity": "m",
+        "weight": 70,
+        "increase": false
+      }
+    ]
+  }
+}

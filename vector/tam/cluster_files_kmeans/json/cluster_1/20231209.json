@@ -1,0 +1,64 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 4,
+    "token": 1,
+    "emom_cycle_length": 6,
+    "onoff": false,
+    "time_cap": 24,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": 10,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "kettlebell swing",
+        "ladder": false,
+        "count": 16,
+        "quantity": "rep",
+        "weight": 53,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 10,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "battle rope",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "sled pull",
+        "ladder": false,
+        "count": 1,
+        "quantity": "rep",
+        "weight": 90,
+        "increase": false
+      }
+    ]
+  }
+}

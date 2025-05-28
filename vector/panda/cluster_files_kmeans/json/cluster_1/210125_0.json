@@ -1,0 +1,58 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 2,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 6,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 200,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "chest to bar",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "thruster",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 110,
+        "increase": false
+      },
+      {
+        "movement": "burpees over bar",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

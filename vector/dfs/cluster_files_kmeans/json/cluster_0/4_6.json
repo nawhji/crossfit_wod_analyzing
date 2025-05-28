@@ -1,0 +1,78 @@
+{
+  "source": "dfs",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 12,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "bike",
+        "ladder": true,
+        "count": "21-15-9",
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "deadlift",
+        "ladder": true,
+        "count": "21-15-9",
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "pull-up",
+        "ladder": true,
+        "count": "21-15-9",
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "Tabata",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": {
+      "on_duration": "0:20",
+      "off_duration": "0:10"
+    },
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "L-sit",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push-up",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

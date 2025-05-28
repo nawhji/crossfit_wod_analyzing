@@ -1,0 +1,57 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "weighted push-up",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "front rack squat",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": 75,
+        "increase": false
+      },
+      {
+        "movement": "strict toes-to-bar",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

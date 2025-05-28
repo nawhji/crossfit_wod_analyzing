@@ -1,0 +1,58 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 10,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dumbbell snatch",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "goblet squat",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 35,
+        "increase": false
+      },
+      {
+        "movement": "v-ups",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "syncro burpees",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

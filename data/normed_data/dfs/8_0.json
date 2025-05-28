@@ -1,0 +1,75 @@
+{
+  "source": "dfs",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 8,
+    "token": 2,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 16,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "floor press",
+        "ladder": true,
+        "count": "8-7-6-5-5-5-5-5",
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": 4,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 12,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "toes to rings",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "overhead squat",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

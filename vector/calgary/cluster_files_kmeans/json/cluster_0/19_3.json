@@ -1,0 +1,71 @@
+{
+  "source": "calgary",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 5,
+    "token": 2,
+    "emom_cycle_length": 2,
+    "onoff": true,
+    "on_duration": "0:20",
+    "off_duration": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "plank shoulder taps",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "jump rope",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 8,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "handstand push-ups",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

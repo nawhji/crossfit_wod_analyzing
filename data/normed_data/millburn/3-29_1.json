@@ -1,0 +1,62 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 7,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 400,
+        "quantity": "m",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "m",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 24,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "wall ball",
+        "ladder": false,
+        "count": 24,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

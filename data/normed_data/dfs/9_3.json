@@ -1,0 +1,58 @@
+{
+  "source": "dfs",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 4,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 25,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "farmers carry",
+        "ladder": false,
+        "count": 100,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "sled pull",
+        "ladder": false,
+        "count": 100,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall ball",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

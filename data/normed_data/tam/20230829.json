@@ -1,0 +1,40 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 3,
+    "token": 3.5,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "time_cap": 15,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 400,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

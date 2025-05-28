@@ -1,0 +1,82 @@
+{
+  "source": "calgary",
+  "type_reps": 2,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": 2,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "machine",
+        "ladder": false,
+        "count": -1,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "burpee",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 10,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "pull-up",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push-up",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "air squat",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 30,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "plate carry",
+        "ladder": false,
+        "count": -1,
+        "quantity": "m",
+        "weight": 45,
+        "increase": false
+      }
+    ]
+  }
+}

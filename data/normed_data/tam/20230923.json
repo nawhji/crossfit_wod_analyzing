@@ -1,0 +1,57 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 15,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "rope climb",
+        "ladder": false,
+        "count": 2,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "shuttle sprint",
+        "ladder": false,
+        "count": 100,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "back squat",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      }
+    ]
+  }
+}

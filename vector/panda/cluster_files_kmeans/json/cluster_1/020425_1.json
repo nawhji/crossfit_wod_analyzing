@@ -1,0 +1,61 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": 24
+      },
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": 200
+      },
+      {
+        "movement": "ring dip",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": null
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 20,
+        "quantity": "cal",
+        "weight": null
+      }
+    ]
+  }
+}

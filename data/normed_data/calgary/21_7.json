@@ -1,0 +1,104 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "jumping pull-up",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "KB swing",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": 35,
+        "increase": false
+      },
+      {
+        "movement": "walking-lunge step",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "knees-to-elbows",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push press",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": 45,
+        "increase": false
+      },
+      {
+        "movement": "GHD hip extension",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall-ball shot",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "burpee",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "double-under",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

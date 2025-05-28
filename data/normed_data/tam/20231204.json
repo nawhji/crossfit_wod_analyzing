@@ -1,0 +1,50 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 3,
+    "token": 5,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 15,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": true,
+        "count": "5-10-15",
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "shuttle run",
+        "ladder": false,
+        "count": 150,
+        "quantity": "ft",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

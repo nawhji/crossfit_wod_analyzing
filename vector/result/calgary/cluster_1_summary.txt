@@ -1,0 +1,34 @@
+📁 cluster_1 analysis result
+# of WOD: 42개
+
+✅ dominant WOD type: barbell (49 times)
+🏋️ barbell weight average: 137.12
+
+🔝 Top 15 Movement:
+  deadlift                       8
+  push press                     5
+  power clean                    5
+  sumo deadlift high pull        4
+  handstand push up              4
+  hang power clean               3
+  strict handstand push up       3
+  push jerk                      3
+  pull up                        3
+  ring muscle up                 3
+  kb swing                       3
+  air squat                      3
+  shoulder press                 3
+  box jump                       3
+  front squat                    2
+
+📊 WOD type ratio
+  barbell   : 49 (46.7%)
+  bodyweight: 10 (9.5%)
+  carry     : 7 (6.7%)
+  unknown   : 2 (1.9%)
+  gymnastics: 15 (14.3%)
+  cardio    : 5 (4.8%)
+  dumbbell  : 7 (6.7%)
+  plyometric: 7 (6.7%)
+  core      : 1 (1.0%)
+  full_body : 2 (1.9%)

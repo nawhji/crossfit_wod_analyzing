@@ -1,0 +1,114 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 15,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 100,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 24,
+        "increase": false
+      },
+      {
+        "movement": "jumping pull-up",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "kettlebell swing",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 35,
+        "increase": false
+      },
+      {
+        "movement": "lunge",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "knees-to-elbows",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push press",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 45,
+        "increase": false
+      },
+      {
+        "movement": "hip extension",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall-ball shot",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "burpee",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "double-under",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "bench press",
+        "ladder": false,
+        "count": 60,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 20,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 800,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

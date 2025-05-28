@@ -1,0 +1,60 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 12,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dumbbell step-up",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 6,
+        "increase_unit_type": "min"
+      },
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": 175,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "toes-to-bar",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

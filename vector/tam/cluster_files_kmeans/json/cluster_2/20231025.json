@@ -1,0 +1,57 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": true,
+    "movement": "run",
+    "count": 800,
+    "quantity": "m",
+    "weight": null
+  },
+  "buy_out": {
+    "exist": true,
+    "movement": "run",
+    "count": 800,
+    "quantity": "m",
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 8,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 30,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "devil press",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 30,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

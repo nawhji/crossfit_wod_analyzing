@@ -1,0 +1,72 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 22,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "odd object hold",
+        "ladder": false,
+        "count": 60,
+        "quantity": "s",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "ring row",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "ring row",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "odd object carry",
+        "ladder": false,
+        "count": 60,
+        "quantity": "s",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell push press",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "dumbbell push press",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

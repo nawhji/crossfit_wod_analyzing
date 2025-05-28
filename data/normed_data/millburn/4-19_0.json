@@ -1,0 +1,69 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": true,
+    "movement": "run",
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 21,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "power clean",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 155,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "box jump over",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "row",
+        "ladder": true,
+        "count": 3,
+        "quantity": "cal",
+        "weight": null,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "cal",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

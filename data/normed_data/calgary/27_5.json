@@ -1,0 +1,48 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 7,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wall-ball shots",
+        "ladder": true,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": true,
+        "increase_every": 5,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "double-unders",
+        "ladder": true,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 15,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

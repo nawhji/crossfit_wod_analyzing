@@ -1,0 +1,69 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 5,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "1:30",
+    "off_duration": "1:30",
+    "time_cap": 15,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "overhead squat",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "bar muscle up",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

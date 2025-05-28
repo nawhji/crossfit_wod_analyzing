@@ -1,0 +1,40 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": 2,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "box step-up",
+        "ladder": false,
+        "count": 300,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "power clean",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": 185,
+        "increase": false
+      }
+    ]
+  }
+}

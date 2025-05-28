@@ -1,0 +1,56 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 4,
+    "emom_num_movements": 5,
+    "emom_time_per_token": 1,
+    "onoff": null,
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dual dumbbell deadlift",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": -1,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "dual dumbbell step-up over",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 50,
+        "increase": false
+      },
+      {
+        "movement": "hang squat clean",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": false
+      }
+    ]
+  }
+}

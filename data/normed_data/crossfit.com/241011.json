@@ -1,0 +1,52 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": null,
+    "token": 1,
+    "emom_cycle_length": 3,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wall walk",
+        "ladder": false,
+        "count": 1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 185,
+        "increase": false
+      },
+      {
+        "movement": "toes-to-bar",
+        "ladder": true,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "min"
+      }
+    ]
+  }
+}

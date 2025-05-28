@@ -1,0 +1,48 @@
+📊 Overall WOD stats
+총 movement 발생 수: 552
+총 운동 유형 분류 수: 552
+
+🔝 Top 30 Movement 전체 기준:
+  double under                   30
+  run                            28
+  row                            18
+  front squat                    16
+  toes to bar                    15
+  wallball                       15
+  burpee over bar                14
+  deadlift                       13
+  burpee                         12
+  kettlebell swing               12
+  box jump over                  12
+  devil press                    11
+  pull up                        11
+  hang power clean               10
+  sit up                         10
+  box jump                       10
+  shoulder to overhead           9
+  rope climb                     9
+  dumbbell snatch                9
+  jump squat                     9
+  chest to bar                   9
+  v up                           8
+  wall walk                      8
+  burpee to target               7
+  handstand push up              7
+  ring dip                       6
+  sandbag over shoulder          6
+  squat clean                    5
+  push press                     5
+  kettlebell russian swing       5
+
+📊 전체 운동 유형 비율:
+  dumbbell  : 125 (22.6%)
+  barbell   : 129 (23.4%)
+  plyometric: 55 (10.0%)
+  gymnastics: 70 (12.7%)
+  cardio    : 99 (17.9%)
+  core      : 21 (3.8%)
+  bodyweight: 29 (5.3%)
+  carry     : 3 (0.5%)
+  full_body : 21 (3.8%)
+
+🏋️ 전체 평균 바벨 무게: 107.89

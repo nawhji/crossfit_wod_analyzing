@@ -1,0 +1,105 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": true,
+    "movement": "calorie row",
+    "count": 31,
+    "quantity": "cal",
+    "weight": null
+  },
+  "buy_out": {
+    "exist": true,
+    "movement": "calorie row",
+    "count": 31,
+    "quantity": "cal",
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wallball shot",
+        "ladder": false,
+        "count": 62,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "hanging knee raise",
+        "ladder": false,
+        "count": 31,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push up",
+        "ladder": false,
+        "count": 62,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "front squat",
+        "ladder": false,
+        "count": 31,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "sit up",
+        "ladder": false,
+        "count": 62,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "medicine ball clean",
+        "ladder": false,
+        "count": 31,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "push press",
+        "ladder": false,
+        "count": 62,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "burpee",
+        "ladder": false,
+        "count": 31,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "twisting pass",
+        "ladder": false,
+        "count": 62,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      }
+    ]
+  }
+}

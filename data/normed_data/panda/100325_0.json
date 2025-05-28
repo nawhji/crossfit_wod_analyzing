@@ -1,0 +1,50 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 11,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "rope climb",
+        "ladder": true,
+        "count": 1,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "deadlift",
+        "ladder": true,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 100,
+        "increase": true,
+        "increase_every": 2,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

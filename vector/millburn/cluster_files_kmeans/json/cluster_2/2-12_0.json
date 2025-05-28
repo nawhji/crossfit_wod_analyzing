@@ -1,0 +1,63 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 20,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "burpee-pull up",
+        "ladder": false,
+        "count": 4,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 8,
+        "quantity": "rep",
+        "weight": 205,
+        "increase": false
+      },
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 32,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 250,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 7,
+    "token": 4,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "time_cap": 28,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 200,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

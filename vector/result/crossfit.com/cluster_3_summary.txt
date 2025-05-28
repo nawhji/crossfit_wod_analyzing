@@ -1,0 +1,32 @@
+📁 cluster_3 analysis result
+# of WOD: 26개
+
+✅ dominant WOD type: cardio (47 times)
+🏋️ barbell weight average: 137.5
+
+🔝 Top 15 Movement:
+  run                            37
+  row                            7
+  kettlebell swing               3
+  ghd sit up                     3
+  double under                   2
+  knee to elbow                  2
+  overhead squat                 2
+  strict pull up                 2
+  toes to bar                    2
+  hang power clean               1
+  kettlebell walking lunge       1
+  squat clean thruster           1
+  back extension                 1
+  sit up                         1
+  pull up                        1
+
+📊 WOD type ratio
+  cardio    : 47 (61.8%)
+  barbell   : 4 (5.3%)
+  dumbbell  : 5 (6.6%)
+  gymnastics: 10 (13.2%)
+  core      : 6 (7.9%)
+  plyometric: 2 (2.6%)
+  full_body : 1 (1.3%)
+  carry     : 1 (1.3%)

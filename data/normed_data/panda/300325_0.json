@@ -1,0 +1,83 @@
+{
+  "source": "panda",
+  "type_reps": 2,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 5,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "front squat",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      },
+      {
+        "movement": "burpees over bar",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "toes-to-bar",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": 3,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "kb swing",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 70,
+        "increase": false
+      },
+      {
+        "movement": "kb overhead lunges",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 70,
+        "increase": false
+      },
+      {
+        "movement": "sandbag clean",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 100,
+        "increase": false
+      }
+    ]
+  }
+}

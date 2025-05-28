@@ -1,0 +1,58 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 5,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 25,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 440,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "box jump",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 24,
+        "increase": false
+      },
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 275,
+        "increase": false
+      },
+      {
+        "movement": "wall-ball shot",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 30,
+        "increase": false
+      }
+    ]
+  }
+}

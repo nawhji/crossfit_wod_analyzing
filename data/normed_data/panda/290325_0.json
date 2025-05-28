@@ -1,0 +1,58 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 20,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 200,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "kettlebell swing",
+        "ladder": false,
+        "count": 20,
+        "quantity": "m",
+        "weight": 55,
+        "increase": false
+      },
+      {
+        "movement": "sandbag over shoulder",
+        "ladder": false,
+        "count": 7,
+        "quantity": "rep",
+        "weight": 75,
+        "increase": false
+      },
+      {
+        "movement": "kettlebell power clean",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 55,
+        "increase": false
+      }
+    ]
+  }
+}

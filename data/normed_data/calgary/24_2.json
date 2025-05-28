@@ -1,0 +1,48 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 12,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "abmat sit-up",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "push jerk",
+        "ladder": true,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": true,
+        "increase_every": 3,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

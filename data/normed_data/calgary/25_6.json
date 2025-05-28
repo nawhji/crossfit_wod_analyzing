@@ -1,0 +1,56 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": true,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 18,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "bar-facing burpees",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall-ball shots",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "run",
+        "ladder": false,
+        "count": 400,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "hang squat cleans",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 185,
+        "increase": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 3,
+    "emom_num_movements": 3,
+    "emom_time_per_token": 1,
+    "onoff": false,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 9,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "sandbag walk",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 75
+      },
+      {
+        "movement": "kettlebell shoulder to overhead",
+        "ladder": false,
+        "count": -1,
+        "quantity": "rep",
+        "weight": 70
+      }
+    ]
+  }
+}

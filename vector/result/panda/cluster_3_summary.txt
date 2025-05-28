@@ -1,0 +1,33 @@
+📁 cluster_3 analysis result
+# of WOD: 38개
+
+✅ dominant WOD type: dumbbell (51 times)
+🏋️ barbell weight average: 77.22
+
+🔝 Top 15 Movement:
+  kettlebell swing               9
+  run                            7
+  double under                   7
+  devil press                    5
+  wallball                       5
+  burpee to target               4
+  row                            4
+  kettlebell russian swing       4
+  dual kettlebell shoulder to overhead 3
+  kettlebell sumo deadlift high pull 3
+  sit up                         3
+  goblet squat                   2
+  dumbbell step up               2
+  sandbag squat                  2
+  toes to bar                    2
+
+📊 WOD type ratio
+  dumbbell  : 51 (40.5%)
+  plyometric: 9 (7.1%)
+  cardio    : 22 (17.5%)
+  carry     : 1 (0.8%)
+  full_body : 7 (5.6%)
+  barbell   : 19 (15.1%)
+  gymnastics: 12 (9.5%)
+  core      : 3 (2.4%)
+  bodyweight: 2 (1.6%)

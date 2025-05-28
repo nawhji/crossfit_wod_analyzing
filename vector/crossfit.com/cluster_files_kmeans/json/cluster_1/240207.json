@@ -1,0 +1,40 @@
+{
+  "source": "crossfit.com",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "freestanding shoulder taps",
+        "ladder": true,
+        "count": "3-2-1",
+        "quantity": "min",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "legless rope climb",
+        "ladder": true,
+        "count": "3-2-1",
+        "quantity": "min",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  }
+}

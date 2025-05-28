@@ -1,0 +1,50 @@
+{
+  "source": "tam",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "EMOM",
+    "round": 7,
+    "token": 3,
+    "emom_cycle_length": 1,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 21,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "assault bike",
+        "ladder": false,
+        "count": 12,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "v-ups",
+        "ladder": false,
+        "count": 12,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "back squat",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": 155,
+        "increase": false
+      }
+    ]
+  }
+}

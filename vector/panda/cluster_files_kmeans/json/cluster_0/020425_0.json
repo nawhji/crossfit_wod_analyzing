@@ -1,0 +1,61 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": 2,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": false,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 2,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "dumbbell deadlift",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50
+      },
+      {
+        "movement": "dumbbell power clean",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 50
+      },
+      {
+        "movement": "burpees to target",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null
+      },
+      {
+        "movement": "strict toes-to-bar",
+        "ladder": false,
+        "count": "max",
+        "quantity": "rep",
+        "weight": null
+      }
+    ]
+  }
+}

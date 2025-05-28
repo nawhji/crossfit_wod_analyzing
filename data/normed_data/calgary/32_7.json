@@ -1,0 +1,38 @@
+{
+  "source": "calgary",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 7,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": null,
+    "off_duration": "1:00",
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "bike",
+        "ladder": false,
+        "count": 20,
+        "quantity": "cal",
+        "weight": null,
+        "increase": false,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

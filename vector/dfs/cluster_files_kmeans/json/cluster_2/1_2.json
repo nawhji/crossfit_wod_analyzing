@@ -1,0 +1,69 @@
+{
+  "source": "dfs",
+  "type_reps": 2,
+  "teamwod": true,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": 12,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 35,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "sit-up",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "wall ball",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": 4,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": true,
+    "on_duration": "1:00",
+    "off_duration": "1:00",
+    "time_cap": null,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "farmers hold",
+        "ladder": false,
+        "count": -1,
+        "quantity": "min",
+        "weight": 50,
+        "increase": false
+      }
+    ]
+  }
+}

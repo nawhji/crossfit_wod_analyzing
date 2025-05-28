@@ -1,0 +1,102 @@
+{
+  "source": "millburn",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 12,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "pull-up",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 42,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "thruster",
+        "ladder": false,
+        "count": 21,
+        "quantity": "rep",
+        "weight": 95,
+        "increase": true,
+        "increase_every": 20,
+        "increase_quantity": "lb",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "chest to bar pull-up",
+        "ladder": false,
+        "count": 18,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 36,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "thruster",
+        "ladder": false,
+        "count": 18,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": false
+      },
+      {
+        "movement": "bar muscle-up",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "double under",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "thruster",
+        "ladder": false,
+        "count": 15,
+        "quantity": "rep",
+        "weight": 135,
+        "increase": false
+      }
+    ]
+  }
+}

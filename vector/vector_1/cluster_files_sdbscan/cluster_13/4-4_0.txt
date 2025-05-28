@@ -1,0 +1,9 @@
+3 Intervals (1 Min Stations / :15s Transition) 
+Station1: Max Ab-Mat Sit Ups 
+Station2: Max Hang Power Snatches (95/65) 
+Station3: Max Med-Ball Push Press (20/14) 
+Station4: Max Calorie Row/Bike/Runner/Ski
+Station5: Rest 
+*3 Total Scores:
+Total reps accumulated across all stations for each intv 
+*ABSU + HPS + MBPP + Cal = score for that intv

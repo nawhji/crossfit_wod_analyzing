@@ -1,0 +1,131 @@
+{
+  "source": "millburn",
+  "type_reps": 3,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": true,
+    "movement": "run",
+    "count": 500,
+    "quantity": "m",
+    "weight": null
+  },
+  "buy_out": {
+    "exist": true,
+    "movement": "run",
+    "count": 500,
+    "quantity": "m",
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 7,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "handstand push up",
+        "ladder": false,
+        "count": 7,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "power snatch",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": 95,
+        "increase": true,
+        "increase_every": 10,
+        "increase_quantity": "lb",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 7,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "handstand push up",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "power snatch",
+        "ladder": false,
+        "count": 4,
+        "quantity": "rep",
+        "weight": 108,
+        "increase": true,
+        "increase_every": 10,
+        "increase_quantity": "lb",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "AMRAP",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 7,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "handstand push up",
+        "ladder": false,
+        "count": 5,
+        "quantity": "rep",
+        "weight": null,
+        "increase": true,
+        "increase_every": 1,
+        "increase_quantity": "rep",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      },
+      {
+        "movement": "power snatch",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 115,
+        "increase": true,
+        "increase_every": 10,
+        "increase_quantity": "lb",
+        "increase_unit_count": 1,
+        "increase_unit_type": "round"
+      }
+    ]
+  }
+}

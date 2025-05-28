@@ -1,0 +1,86 @@
+{
+  "source": "millburn",
+  "type_reps": 3,
+  "teamwod": false,
+  "rest_between": true,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 2,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "wall ball",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      },
+      {
+        "movement": "rage ball",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_2": {
+    "type": "For Time",
+    "round": null,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "row",
+        "ladder": false,
+        "count": 1000,
+        "quantity": "m",
+        "weight": null,
+        "increase": false
+      }
+    ]
+  },
+  "type_rep_3": {
+    "type": "For Time",
+    "round": 2,
+    "token": null,
+    "emom_cycle_length": null,
+    "onoff": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "box jump over",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "rage ball",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 20,
+        "increase": false
+      }
+    ]
+  }
+}

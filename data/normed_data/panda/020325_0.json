@@ -1,0 +1,66 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "buy_out": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "AMRAP",
+    "round": null,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": false,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": 9,
+    "rest": true,
+    "movements": [
+      {
+        "movement": "deadlift",
+        "ladder": false,
+        "count": 9,
+        "quantity": "rep",
+        "weight": 154,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "squat clean",
+        "ladder": false,
+        "count": 6,
+        "quantity": "rep",
+        "weight": 155,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      },
+      {
+        "movement": "push press",
+        "ladder": false,
+        "count": 3,
+        "quantity": "rep",
+        "weight": 155,
+        "increase_every": null,
+        "increase_quantity": null,
+        "increase_unit_count": null,
+        "increase_unit_type": null
+      }
+    ]
+  }
+}

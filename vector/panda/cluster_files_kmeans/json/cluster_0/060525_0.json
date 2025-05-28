@@ -1,0 +1,74 @@
+{
+  "source": "panda",
+  "type_reps": 1,
+  "teamwod": false,
+  "rest_between": false,
+  "buy_in": {
+    "exist": false,
+    "movement": null,
+    "count": null,
+    "quantity": null,
+    "weight": null
+  },
+  "type_rep_1": {
+    "type": "For Time",
+    "round": 1,
+    "emom_num_movements": null,
+    "emom_time_per_token": null,
+    "onoff": null,
+    "on_duration": null,
+    "off_duration": null,
+    "time_cap": null,
+    "rest": false,
+    "movements": [
+      {
+        "movement": "air squat",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push jerk",
+        "ladder": false,
+        "count": 30,
+        "quantity": "rep",
+        "weight": 110,
+        "increase": false
+      },
+      {
+        "movement": "air squat",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "push press",
+        "ladder": false,
+        "count": 20,
+        "quantity": "rep",
+        "weight": 110,
+        "increase": false
+      },
+      {
+        "movement": "air squat",
+        "ladder": false,
+        "count": 50,
+        "quantity": "rep",
+        "weight": null,
+        "increase": false
+      },
+      {
+        "movement": "strict press",
+        "ladder": false,
+        "count": 10,
+        "quantity": "rep",
+        "weight": 110,
+        "increase": false
+      }
+    ]
+  }
+}
