@@ -6,7 +6,6 @@ import pandas as pd
 from collections import Counter
 import re
 
-# ✅ 정규화 함수
 def normalize_movement_name(name: str, weight: float) -> str:
     name = name.lower()
     # name = re.sub(r'\bdb\b', 'dumbell', name)
@@ -50,13 +49,11 @@ def normalize_movement_name(name: str, weight: float) -> str:
 
     return name.strip()
 
-# ✅ 모델 로딩
 model = SentenceTransformer("../../bert_model/fine_tuned_crossfit_model/")
 
 MAX_WEIGHT = 250
 NULL_WEIGHT_VALUE = 0.5 * MAX_WEIGHT
 
-# ✅ WOD 1개 → 벡터
 def wod_to_vector(wod_json):
     try:
         if "type_reps" not in wod_json or not isinstance(wod_json["type_reps"], int) or wod_json["type_reps"] < 1:
@@ -104,13 +101,11 @@ def wod_to_vector(wod_json):
                 else:
                     count = 0
 
-                # ✅ 거리 단위 보정
                 if m.get("quantity", "") == "m":
                     count = count / 10
                 elif m.get("quantity", "") == "ft":
                     count = count / 10
 
-                # ✅ 더블언더 보정
                 if "double under" in normalized_name:
                     count *= 0.2
 
@@ -118,7 +113,6 @@ def wod_to_vector(wod_json):
                 weights.append(weight / MAX_WEIGHT)
                 increase_flags.append(int(bool(m.get("increase", False))))
 
-                # ✅ 무게 가중치 추가 계산
                 raw_weight = weight
                 if "barbell" in normalized_name and raw_weight >= 135:
                     weight_bonus_factors.append(raw_weight / 135)
@@ -184,7 +178,6 @@ def wod_to_vector(wod_json):
     except Exception as e:
         return None, str(e)
 
-# ✅ 모든 JSON 처리
 def process_all_jsons_with_filenames(directory_path):
     vectors = []
     filenames = []
@@ -210,7 +203,6 @@ def process_all_jsons_with_filenames(directory_path):
     print(f"\n✅ 총 {len(vectors)}개 성공 / {len(errors)}개 실패")
     return vectors, filenames, errors
 
-# ✅ 벡터 저장
 def save_vectors(vectors, filenames, save_dir, prefix="wod_vectors"):
     os.makedirs(save_dir, exist_ok=True)
     np.save(os.path.join(save_dir, f"{prefix}.npy"), np.stack(vectors))
@@ -220,7 +212,6 @@ def save_vectors(vectors, filenames, save_dir, prefix="wod_vectors"):
             f.write(name + "\n")
     print(f"✅ 저장 완료: {save_dir}/{prefix}.*")
 
-# ✅ 메인 실행
 def main(input_dir, output_dir, prefix="wod_vectors"):
     vectors, filenames, errors = process_all_jsons_with_filenames(input_dir)
     if vectors:
@@ -233,5 +224,4 @@ def main(input_dir, output_dir, prefix="wod_vectors"):
         for fname, reason in errors:
             print(f" - {fname}: {reason}")
 
-# ✅ 예시 실행
 main("../../data/normed_data/crossfit.com/", ".", "crossfit.com")

@@ -8,7 +8,6 @@ import os
 import shutil
 import pandas as pd
 
-# === 1. Load vectors and filenames ===
 source_name = "crossfit.com"
 vector_path = f"{source_name}.npy"
 filename_path = f"{source_name}_filenames.txt"
@@ -18,12 +17,10 @@ vectors = np.load(vector_path)
 with open(filename_path, "r") as f:
     filenames = [line.strip() for line in f.readlines()]
 
-# === 2. StandardScaler 적용 ===
 scaler = StandardScaler()
 vectors_scaled = scaler.fit_transform(vectors)
 
-# === 3. KMeans 클러스터링 ===
-n_clusters = 4  # 원하는 클러스터 수
+n_clusters = 4
 
 import random
 random_state = random.randint(0, 100000)
@@ -42,14 +39,12 @@ print(f"siluette score: {score:.4f}")
 #     score = silhouette_score(vectors_scaled, labels)
 #     print(f"k={k}, Silhouette Score={score:.4f}")
 
-# === 4. PCA for 시각화 ===
 pca = PCA(n_components=2)
 reduced = pca.fit_transform(vectors_scaled)
 
 output_txt = output_base_dir + '/txt'
 output_json = output_base_dir + '/json'
 
-# === 5. 클러스터별 텍스트 파일 복사 ===
 os.makedirs(output_base_dir, exist_ok=True)
 os.makedirs(output_txt, exist_ok=True)
 os.makedirs(output_json, exist_ok=True)
@@ -83,11 +78,9 @@ for label in unique_labels:
         except FileNotFoundError:
             print(f"❌ 파일 없음: {source_txt_path}")
 
-# === 6. 시각화 ===
 plt.figure(figsize=(8, 6))
 plt.scatter(reduced[:, 0], reduced[:, 1], c=labels, cmap='tab10', alpha=0.7)
 
-# 클러스터 중심 표시
 for label in unique_labels:
     idxs = np.where(labels == label)[0]
     if len(idxs) == 0:
@@ -103,7 +96,6 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# === 7. 가장 멀리 떨어진 20개 WOD 확인 ===
 pc1_values = reduced[:, 0]
 far_indices = np.argsort(-np.abs(pc1_values))[:20]
 

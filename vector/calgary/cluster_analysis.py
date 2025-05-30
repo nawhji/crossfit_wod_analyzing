@@ -3,9 +3,9 @@ from typing import Optional
 
 def normalize_name(name: str) -> str:
     name = name.lower()
-    name = re.sub(r"[-_]", " ", name)               # -, _ → 공백
-    name = re.sub(r"\s+", " ", name).strip()        # 다중 공백 정리
-    name = re.sub(r"s\b", "", name)                 # 복수형 s 제거 (e.g., pull ups → pull up)
+    name = re.sub(r"[-_]", " ", name)
+    name = re.sub(r"\s+", " ", name).strip()
+    name = re.sub(r"s\b", "", name)
     
     if "pres " in name or name.endswith("pres"):
         name = name.replace("pres", "press")
@@ -44,7 +44,6 @@ movement_type_keywords = {
     ]
 }
 
-# dumbbell / odd object 인식 키워드 (우선 분류)
 dumbbell_keywords = ['dumbbell', 'db', 'kettlebell', 'kb']
 odd_keywords = ['sandbag', 'odd', 'sled']
 
@@ -64,11 +63,9 @@ dumbbell_candidates = [
 def get_movement_type(name: str, weight: Optional[float]) -> str:
     name = normalize_name(name)
 
-    # carry 최우선 분류
     if "carry" in name or 'hold' in name:
         return "carry"
 
-    # dumbbell or odd object 분류
     if any(k in name for k in dumbbell_keywords):
         return "dumbbell"
     if any(k in name for k in dumbbell_candidates):
@@ -86,7 +83,6 @@ def get_movement_type(name: str, weight: Optional[float]) -> str:
         if not any(k in name for k in dumbbell_keywords) and weight and weight > 0:
             return "barbell"
 
-    # 포함 키워드 기반 매핑
     for category, keywords in movement_type_keywords.items():
         for kw in keywords:
             if kw in name:

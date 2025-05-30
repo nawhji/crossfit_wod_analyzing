@@ -97,14 +97,12 @@ def generate_triplets(group_to_movements, num_triplets_per_group=30):
 
 def get_hard_triplets():
     return [
-        # 덤벨 vs 바벨 구분 (같은 기능, 다른 장비)
         InputExample(texts=["dumbell Push press", "dumbell Thruster", "barbell Push press"]),
         InputExample(texts=["dumbell hang clean", "dumbell squat clean", "barbell Hang Power Clean"]),
         InputExample(texts=["dumbell hang snatch", "dumbell hang squat snatch", "barbell Power Snatch"]),
         InputExample(texts=["Dumbell Clean and Jerk", "Dumbell Snatch", "barbell Clean and Jerk"]),
         InputExample(texts=["dumbell hang squat clean", "dumbell hang clean", "barbell Squat Clean"]),
 
-        # 푸시업류 vs 매달리는 동작 구분
         InputExample(texts=["Push up", "Hand-release push up", "Pull up"]),
         InputExample(texts=["Ring push up", "Pike push up", "Chest to bar pull up"]),
         # InputExample(texts=["Handstand push up", "Strict handstand push up", "Rope climb"]),
@@ -178,11 +176,10 @@ def train_triplet_model(triplets, model_name="all-MiniLM-L6-v2", output_dir="fin
     model = SentenceTransformer(model_name)
     dataloader = DataLoader(triplets, shuffle=True, batch_size=16)
 
-    # ✅ TripletLoss에 margin 추가
     loss = losses.TripletLoss(
         model=model,
         distance_metric=losses.TripletDistanceMetric.EUCLIDEAN,
-        triplet_margin=0.7  # 👈 여기서 margin 크기 조절 가능
+        triplet_margin=0.7  # 👈
     )
 
     model.fit(
@@ -192,7 +189,7 @@ def train_triplet_model(triplets, model_name="all-MiniLM-L6-v2", output_dir="fin
         show_progress_bar=True
     )
     model.save(output_dir)
-    print(f"✅ 모델 저장됨: {output_dir}")
+    print(f"✅: {output_dir}")
 
 # 실행
 basic_triplets = generate_triplets(group_to_movements)

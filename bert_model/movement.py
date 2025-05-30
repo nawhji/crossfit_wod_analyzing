@@ -42,25 +42,20 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from collections import defaultdict
 
-# Load fine-tuned model
 model = SentenceTransformer("fine_tuned_crossfit_model/")
 
-# Generate embeddings
 embeddings = model.encode(movements)
 
 scaler = StandardScaler()
 embeddings = scaler.fit_transform(embeddings)
 
-# Dimensionality reduction for visualization
 pca = PCA(n_components=2)
 reduced = pca.fit_transform(embeddings)
 
-# Clustering using KMeans
-n_clusters = 10  # 원하는 클러스터 수로 조절 가능
+n_clusters = 10 
 kmeans = KMeans(n_clusters=n_clusters, random_state=10)
 labels = kmeans.fit_predict(embeddings)
 
-# Visualize the clustering result
 plt.figure(figsize=(14, 10))
 colors = plt.cm.get_cmap("tab10", n_clusters)
 
@@ -82,12 +77,10 @@ clusters = defaultdict(list)
 for i, label in enumerate(labels):
     clusters[label].append(movements[i])
 
-# Format clustering results as text
 cluster_text = ""
 for cluster_id in sorted(clusters.keys()):
     cluster_text += f"Cluster {cluster_id}:\n" + "\n".join(f"  - {movement}" for movement in clusters[cluster_id]) + "\n\n"
 
-# Save to text file
 file_path = "movement_clusters_kmeans.txt"
 with open(file_path, "w") as f:
     f.write(cluster_text)

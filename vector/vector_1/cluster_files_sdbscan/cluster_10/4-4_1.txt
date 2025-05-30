@@ -1,6 +1,0 @@
-3 Intervals (1 Min Stations / :15s Transition) 
-Station1: Max Ab-Mat Sit Ups 
-Station2: Max American KB Swings (24K/16K) 
-Station3: Max Med-Ball Push Press (20/14) 
-Station4: Max Calorie Row/Bike/Runner/Ski
-Station5: Rest
