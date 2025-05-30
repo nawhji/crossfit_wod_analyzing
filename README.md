@@ -20,7 +20,7 @@ and if you want to know the details, check my `report/Analyzing Crossfit WOD Var
 ㄴ 📁 crawled_data/                                # Raw workout texts collected from websites
 ㄴ 📁 normed_data/                                 # Cleaned and normalized WOD data in JSON format
 ㄴ check.py                                         # Script for inspecting JSON formatting or errors
-ㄴ norm.py                                          # JSON normalization and cleaning logic
+ㄴ norm.py                                          # JSON normalization and cleaning logic (without API key!!)
 
 📁 vector/ # Vectorized WOD data per CrossFit gym (box)
 ㄴ 📁 (box name)/
